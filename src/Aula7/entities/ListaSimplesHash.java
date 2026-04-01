@@ -13,7 +13,7 @@ public class ListaSimplesHash {
         }
     }
 
-    
+
     public void adicionarViaHash(Integer elemento) {
         if(!estaCheio()) {
             // elemento (x) mod m
