@@ -9,6 +9,10 @@ public class ListaEncadeadaClean<T> {
     private final String NAO_EXISTE = "Posição não existe";
     private final String LISTA_VAZIA = "A lista dinâmica está vazia!";
 
+    public ListaEncadeadaClean() {
+        System.out.println("Lista encadeada criada com sucesso! Existem " + tamanho + " posições disponíveis.");
+    }
+
     // Inserindo elemento no final:
     public void adicionarUltimo(T elemento) {
 

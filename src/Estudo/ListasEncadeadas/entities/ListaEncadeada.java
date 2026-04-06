@@ -18,6 +18,10 @@ public class ListaEncadeada<T> {
     // Variável constante para lista vazia
     private final String LISTA_VAZIA = "A lista dinâmica está vazia!";
 
+    public ListaEncadeada() {
+        System.out.println("Lista encadeada criada com sucesso! Existem " + tamanho + " posições disponíveis.");
+    }
+
     // Inserindo elemento no final:
     //  - Pegar o primeiro elemento e apontar a propriedade próximo para o novo Nó
     //  - Referenciar último elemento da lista
