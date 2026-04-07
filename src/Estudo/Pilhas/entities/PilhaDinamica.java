@@ -51,8 +51,8 @@ public class PilhaDinamica<T> {
         // Retorna o elemento removido
         return removido;
     }
-    // Topo da pilha:
 
+    // Topo da pilha:
     public T topo() {
         // Verificação de pilha vazia
         if (estaVazia()) {

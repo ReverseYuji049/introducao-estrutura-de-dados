@@ -241,7 +241,6 @@ public class ListaEncadeada<T> {
         return NAO_ENCONTRADO;
     }
 
-
     // Percorrer a lista:
     //  - Referência (atual/ponteiro) que é atribuída ao inicio
     //  - Enquanto houver um próximo elemento, o obtém, movendo esse ponteiro atual
@@ -278,8 +277,6 @@ public class ListaEncadeada<T> {
         builder.append(atual.getElemento()).append("]");
 
         return builder.toString();
-
-
     }
 }
 
