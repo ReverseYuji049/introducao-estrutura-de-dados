@@ -1,4 +1,4 @@
-package Estudo.ListasEncadeadas.entities;
+package Estudo.ListaEstatica.entities;
 
 @SuppressWarnings("unchecked")
 public class ListaEstatica<T> {

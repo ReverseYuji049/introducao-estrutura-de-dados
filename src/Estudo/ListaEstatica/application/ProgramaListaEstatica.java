@@ -1,6 +1,6 @@
-package Estudo.ListasEncadeadas.application;
+package Estudo.ListaEstatica.application;
 
-import Estudo.ListasEncadeadas.entities.ListaEstatica;
+import Estudo.ListaEstatica.entities.ListaEstatica;
 
 public class ProgramaListaEstatica {
     static void main() {
