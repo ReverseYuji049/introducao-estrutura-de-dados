@@ -1,4 +1,6 @@
-package Estudo.Filas.entities;
+package Estudo.Filas.entities.FilaEstaticaPrioritaria;
+
+import Estudo.Filas.entities.FilaEstatica;
 
 public class FilaEstaticaPrioritaria<T extends Comparable<T>> extends FilaEstatica<T> {
 

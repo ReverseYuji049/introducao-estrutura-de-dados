@@ -1,4 +1,4 @@
-package Estudo.Filas.entities;
+package Estudo.Filas.entities.FilaEstaticaPrioritaria;
 
 public class Elemento implements Comparable<Elemento> {
     String nome;

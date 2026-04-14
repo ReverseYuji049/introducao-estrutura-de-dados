@@ -1,8 +1,8 @@
 package Estudo.Filas.application;
 
-import Estudo.Filas.entities.Elemento;
+import Estudo.Filas.entities.FilaEstaticaPrioritaria.Elemento;
 import Estudo.Filas.entities.FilaEstatica;
-import Estudo.Filas.entities.FilaEstaticaPrioritaria;
+import Estudo.Filas.entities.FilaEstaticaPrioritaria.FilaEstaticaPrioritaria;
 
 public class ProgramaFilaEstatica {
     static void main() {
